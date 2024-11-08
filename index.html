@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <label for="email">Enter Email:</label>
+    <input type="email" id="email" name="email" placeholder="email address" required>
+    <input type="submit">
+    <br><br>
+    <label for="age">Enter Age:</label>
+    <input type="number" placeholder="age" id="age" min="1" max="120" step="1">
+    <input type="submit">
+    <br><br>
+    <label for="dob">Enter Date of Birth:</label>
+    <input type="date" id="dob" placeholder="date of birth" min="1904-01-01" max="2024-01-01">
+    <input type="submit">
+    <br><br>
+    <label for="rating">Rate This Webpage:</label>
+    <input type="range" min="1" max="10" step="1">
+    <br><br>
+    <label for="language">Choose Your Favorite Programming Language:</label>
+    <select name="language" id="language">
+        <option value="python">Python</option>
+        <option value="javascript">JavaScript</option>
+        <option value="css">CSS</option>
+    </select>
+    <br><br>
+    <label for="expertise">What is your level of expertise in your favorite language?</label>
+    <br>
+    <input type="radio" name="expertise"> Beginner
+    <br>
+    <input type="radio" name="expertise"> Intermediate
+    <br>
+    <input type="radio" name="expertise"> Advanced
+    <br>
+    <br>
+    <label for="platform">What is your preferred development platform(s)?</label>
+    <br>
+    <input type="checkbox" name="platform"> Web
+    <br>
+    <input type="checkbox" name="platform"> Mobile
+    <br>
+    <input type="checkbox" name="platform"> Desktop
+    <br>
+
+
+    
+</body>
+</html>
